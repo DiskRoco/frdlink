@@ -14,7 +14,7 @@
 
 ---
 
-config说明
+#### config说明
 
 | | |
 | --- | --- |
@@ -26,7 +26,8 @@ config说明
 
 当 $site_webmastermail 与 $site_applylink 同时为空时，将会提示 `申请通道暂时关闭`
 
-frdbase中的json文件说明 
+
+#### frdbase中的json文件说明 
 
 | | |
 | --- | --- |
