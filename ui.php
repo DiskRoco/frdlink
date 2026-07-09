@@ -68,21 +68,21 @@ function html_showlinks($links) {
         <?php 
         foreach ($links as $link) {
         ?>
-        <a href="<?php echo $link['link'];?>" target="_blank" rel="noopener noreferrer nofollow" style="text-decoration: none;">
+        <a href="<?php echo $link['link']; ?>" target="_blank" rel="noopener noreferrer nofollow" style="text-decoration: none;">
             <mdui-card variant="filled" style="width: 332px;height: 123px; margin: 12px;" class="linkcard">
                 <div class="linkcardinfo">
                     <div style="display: flex; gap: 10px;">
-                        <mdui-avatar src="./frdbase/favicon/<?php echo $link['icon'];?>"></mdui-avatar>
-                        <table style="margin-top: -7px;text-align: left;">
-                            <tr>
-                                <th><?php echo $link['name']; if ($link['verified'] == 1) echo " ".verifiedicon(14);?></th>
-                            </tr>
-                            <tr>
-                                <td style="color: gray;"><?php echo $link['link'];?></td>
-                            </tr>
-                        </table>
+                        <mdui-avatar style="width: 40px;height: 40px;aspect-ratio: 1 / 1;"
+                            src="./frdbase/favicon/<?php echo $link['icon']; ?>"></mdui-avatar>
+                        <div style="display: inline-block; text-align: left; margin-top: -3px;">
+                            <?php echo $link['name'];
+                            if ($link['verified'] == 1)
+                                echo " " . verifiedicon(14); ?>
+                            <br />
+                            <font color=gray><?php echo $link['link']; ?></font>
+                        </div>
                     </div>
-                    <p><?php echo $link['desc']?></p>
+                    <p style="margin-top: 20px;"><?php echo $link['desc'] ?></p >
                 </div>
             </mdui-card>
         </a>
