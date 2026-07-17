@@ -16,26 +16,10 @@
 
 ---
 
-#### config说明
+#### 配置说明
 
-| | |
-| --- | --- |
-| $site_title | 显示于标签页的标题 |
-| $site_toolbartitle | 显示于网站顶部的标题 |
-| $site_favicon | 网站徽标 |
-| $site_webmastermail | 接受友链申请的邮箱 |
-| $site_applylink | 接受友链申请的链接，为空时将自动生成 mailto 指向 $site_webmastermail |
+官方文档: [https://d.indev.win/t/frdlink/66](https://d.indev.win/t/frdlink/66)
 
-当 $site_webmastermail 与 $site_applylink 同时为空时，将会提示 `申请通道暂时关闭`
+#### License
 
-
-#### frdbase中的json文件说明 
-
-| | |
-| --- | --- |
-| name | 友链名称 |
-| icon | 友链图标。默认固定从favicon文件夹中提取，可以通过修改 `ui.php` 自定义获取方式 |
-| link | 友链链接 |
-| desc | 友链介绍 |
-| verified | 设定为1时友链名称右侧将会出现认证符号 |
-| ref | 未定义 |
+MIT
