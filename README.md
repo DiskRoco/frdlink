@@ -23,3 +23,7 @@
 #### License
 
 MIT
+
+---
+
+<small>This project uses [mdui-2](https://www.mdui.org/) for the UI framework and [tabler.io/icons](https://tabler.io/icons) for the icons</small>
