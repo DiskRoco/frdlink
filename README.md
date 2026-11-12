@@ -12,7 +12,7 @@
 
 访问 `https://[YOURDOMAIN]/?json` 将会以json格式输出所有友链信息，可利用这个将友链嵌入到自己的其他站点。下方是示例图：
 
-![外挂示例 https://blog.srowo.cn](https://files.srowo.cn/img/frdlinkdemo/expansion.png)
+![外挂示例 https://blog.srowo.cn](https://files.srowo.cn/img/frdlinkdemo/expansion.jpg)
 
 ---
 
